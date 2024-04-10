@@ -3,7 +3,7 @@ import Card from './Card'
 
  function Cards() {
     const [cards, setCards] = useState([
-   { id: 0, name: 'image1', status: '', img: '.images/pmg1.webp' },
+   { id: 0, name: 'image1', status: '', img: './images/pmg1.webp' },
   { id: 0, name: 'image1', status: '', img: './images/pmg1.webp' },
   { id: 1, name: 'image2', status: '', img: './images/pmg2.jpg' },
   { id: 1, name: 'image2', status: '', img: './images/pmg2.jpg' },
