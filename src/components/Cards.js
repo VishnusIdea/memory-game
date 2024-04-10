@@ -3,22 +3,22 @@ import Card from './Card'
 
  function Cards() {
     const [cards, setCards] = useState([
-   { id: 0, name: 'image1', status: '', img: './images/pmg1.webp' },
-  { id: 0, name: 'image1', status: '', img: './images/pmg1.webp' },
-  { id: 1, name: 'image2', status: '', img: './images/pmg2.jpg' },
-  { id: 1, name: 'image2', status: '', img: './images/pmg2.jpg' },
-  { id: 2, name: 'image3', status: '', img: './images/pmg3.jpg' },
-  { id: 2, name: 'image3', status: '', img: './images/pmg3.jpg' },
-  { id: 3, name: 'image4', status: '', img: './images/pmg4.jpg' },
-  { id: 3, name: 'image4', status: '', img: './images/pmg4.jpg' },
-  { id: 4, name: 'image5', status: '', img: './images/pmg5.jpg' },
-  { id: 4, name: 'image5', status: '', img: './images/pmg5.jpg' },
-  { id: 5, name: 'image6', status: '', img: './images/pmg6.jpg' },
-  { id: 5, name: 'image6', status: '', img: './images/pmg6.jpg' },
-  { id: 6, name: 'image7', status: '', img: './images/pmg7.jpg' },
-  { id: 6, name: 'image7', status: '', img: './images/pmg7.jpg' },
-  { id: 7, name: 'image8', status: '', img: './images/pmg8.jpg' },
-  { id: 7, name: 'image8', status: '', img: './images/pmg8.jpg' },
+   { id: 0, name: 'image1', status: '', img: '../images/pmg1.webp' },
+  { id: 0, name: 'image1', status: '', img: '../images/pmg1.webp' },
+  { id: 1, name: 'image2', status: '', img: '../images/pmg2.jpg' },
+  { id: 1, name: 'image2', status: '', img: '../images/pmg2.jpg' },
+  { id: 2, name: 'image3', status: '', img: '../images/pmg3.jpg' },
+  { id: 2, name: 'image3', status: '', img: '../images/pmg3.jpg' },
+  { id: 3, name: 'image4', status: '', img: '../images/pmg4.jpg' },
+  { id: 3, name: 'image4', status: '', img: '../images/pmg4.jpg' },
+  { id: 4, name: 'image5', status: '', img: '../images/pmg5.jpg' },
+  { id: 4, name: 'image5', status: '', img: '../images/pmg5.jpg' },
+  { id: 5, name: 'image6', status: '', img: '../images/pmg6.jpg' },
+  { id: 5, name: 'image6', status: '', img: '../images/pmg6.jpg' },
+  { id: 6, name: 'image7', status: '', img: '../images/pmg7.jpg' },
+  { id: 6, name: 'image7', status: '', img: '../images/pmg7.jpg' },
+  { id: 7, name: 'image8', status: '', img: '../images/pmg8.jpg' },
+  { id: 7, name: 'image8', status: '', img: '../images/pmg8.jpg' },
    ].sort(() => Math.random() - .5))
 
     const [previousCardState, setPreviousCardState] = useState(-1)
